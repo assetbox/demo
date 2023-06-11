@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 devDependencies:
   '@assetbox/cli':
-    specifier: ^0.1.8
-    version: 0.1.8
+    specifier: ^0.1.9
+    version: 0.1.9
   '@assetbox/plugin-react-icon':
     specifier: ^0.1.6
     version: 0.1.6
@@ -21,8 +21,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.18
     dev: true
 
-  /@assetbox/cli@0.1.8:
-    resolution: {integrity: sha512-25UYHjWYq4nFxf5Uhsqhs5hCqVXloAZGMxMIFmx9XtIw1/IOmUqPKrhosfEk1VYcvOX7SrO4mBcBRI9/W2Z/tA==}
+  /@assetbox/cli@0.1.9:
+    resolution: {integrity: sha512-flXapvsWTngUHzF2ujymme+ywBOxqIKzbJZsGgTcvsucYy41rOoyVx7hy7+H03YZHVTpra1BOJhxsXgCNg0H8g==}
     hasBin: true
     dependencies:
       '@trpc/server': 10.30.0

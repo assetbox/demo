@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@assetbox/cli": "^0.1.8",
+    "@assetbox/cli": "^0.1.9",
     "@assetbox/plugin-react-icon": "^0.1.6",
     "gh-pages": "^5.0.0"
   },

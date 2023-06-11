@@ -9,6 +9,9 @@ const config = {
     "antd-outlined": ["./antd/outlined/**/*"],
     "antd-twotone": ["./antd/twotone/**/*"],
   },
+  staticBuild: {
+    base: "/demo",
+  },
   iconBuild: {
     plugins: [react()],
   },
