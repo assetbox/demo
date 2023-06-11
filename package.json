@@ -1,0 +1,20 @@
+{
+  "name": "@assetbox/demo",
+  "version": "0.1.0",
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.cjs",
+      "import": "./dist/esm/index.mjs"
+    }
+  },
+  "scripts": {
+    "static-build": "assetbox static-build",
+    "icon-build": "assetbox icon-build",
+    "dev": "assetbox manage"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@assetbox/cli": "^0.1.8",
+    "@assetbox/plugin-react-icon": "^0.1.6"
+  }
+}
