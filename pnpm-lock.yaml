@@ -5,8 +5,8 @@ devDependencies:
     specifier: ^0.1.9
     version: 0.1.9
   '@assetbox/plugin-react-icon':
-    specifier: ^0.1.6
-    version: 0.1.6
+    specifier: ^0.1.7
+    version: 0.1.7
   gh-pages:
     specifier: ^5.0.0
     version: 5.0.0
@@ -54,8 +54,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@assetbox/plugin-react-icon@0.1.6:
-    resolution: {integrity: sha512-T8ErpN0DhePCWcARYfaiGBol9GuVqkpx3JkfSnQsjRPgRsI8h8/0LUEk/9KR0iYG6rKW5qW1DWdQO9iwaj0wfg==}
+  /@assetbox/plugin-react-icon@0.1.7:
+    resolution: {integrity: sha512-4NM+YUFh2gwmxCMwGMB8ndlq8yVtViXmsNCH3E07egL+l9DhZOE3o4FhgNb0zP3k7ubpj/gqjhVy4HVmIZQdeQ==}
     dependencies:
       '@babel/core': 7.22.5
       '@babel/plugin-transform-modules-commonjs': 7.22.5(@babel/core@7.22.5)
