@@ -7,13 +7,13 @@
   ],
   "exports": {
     "./antd-filled": {
-      "import": "./dist/antd-filled/index.js"
+      "import": "./dist/esm/antd-filled/index.js"
     },
     "./antd-outlined": {
-      "import": "./dist/antd-outlined/index.js"
+      "import": "./dist/esm/antd-outlined/index.js"
     },
     "./antd-twotone": {
-      "import": "./dist/antd-twotone/index.js"
+      "import": "./dist/esm/antd-twotone/index.js"
     }
   },
   "publishConfig": {
