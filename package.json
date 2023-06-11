@@ -7,6 +7,20 @@
       "import": "./dist/esm/index.mjs"
     }
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://assetbox.github.io/demo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/assetbox/demo.git"
+  },
+  "keywords": [
+    "asset",
+    "icon",
+    "image",
+    "asset-management"
+  ],
   "scripts": {
     "static-build": "assetbox static-build",
     "icon-build": "assetbox icon-build",
