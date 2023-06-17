@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@assetbox/cli':
-    specifier: ^0.2.1
-    version: 0.2.1
+    specifier: ^0.2.2
+    version: 0.2.2
   '@assetbox/plugin-react-icon':
-    specifier: ^0.2.1
-    version: 0.2.1(@types/react@18.2.12)
+    specifier: ^0.2.2
+    version: 0.2.2(@types/react@18.2.12)
   gh-pages:
     specifier: ^5.0.0
     version: 5.0.0
@@ -25,8 +25,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.18
     dev: true
 
-  /@assetbox/cli@0.2.1:
-    resolution: {integrity: sha512-QGXFes2nT/YvTqZMAX0jcbx6Zdkq5J9xmpHRGuzKPnleb3v6wcr9aJEkL5Luqg2pg4f78Uti2kM3hMsXNTgoIQ==}
+  /@assetbox/cli@0.2.2:
+    resolution: {integrity: sha512-s7ZSCS3+rqDrjI902DMKfT4qttxFaacrOUKDJD03Cq8mXG0M4eqm5Vx0fDnqji5cKIU626CVsZSMjpGLA3zu0Q==}
     hasBin: true
     dependencies:
       '@trpc/server': 10.30.0
@@ -58,8 +58,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@assetbox/plugin-react-icon@0.2.1(@types/react@18.2.12):
-    resolution: {integrity: sha512-7nbIfOgz1W1ie2X0YWG7Nihp6YzCpojCPT7jnmgZMgaFXYjrYPQ4u71wvAcpntRUs6RahCUPtvXI/Z8rw6POHg==}
+  /@assetbox/plugin-react-icon@0.2.2(@types/react@18.2.12):
+    resolution: {integrity: sha512-lcd/8u0JFLm8AKJAdVIEbFbwDfwIumPHBUUAo8mlXBTVB4Z8ewYxMGxeJ2DCrb/W45C4UZcWQITKNSeNuNDAuw==}
     peerDependencies:
       '@types/react': '*'
     dependencies:

@@ -16,8 +16,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@assetbox/cli": "^0.2.1",
-    "@assetbox/plugin-react-icon": "^0.2.1",
+    "@assetbox/cli": "^0.2.2",
+    "@assetbox/plugin-react-icon": "^0.2.2",
     "gh-pages": "^5.0.0"
   },
   "packageManager": "pnpm@8.6.2",
