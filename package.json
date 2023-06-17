@@ -20,5 +20,25 @@
     "@assetbox/plugin-react-icon": "^0.2.0",
     "gh-pages": "^5.0.0"
   },
-  "packageManager": "pnpm@8.6.2"
+  "packageManager": "pnpm@8.6.2",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./antd-filled": {
+      "types": "./dist/types/antd-filled",
+      "import": "./dist/esm/antd-filled",
+      "require": "./dist/cjs/antd-filled"
+    },
+    "./antd-outlined": {
+      "types": "./dist/types/antd-outlined",
+      "import": "./dist/esm/antd-outlined",
+      "require": "./dist/cjs/antd-outlined"
+    },
+    "./antd-twotone": {
+      "types": "./dist/types/antd-twotone",
+      "import": "./dist/esm/antd-twotone",
+      "require": "./dist/cjs/antd-twotone"
+    }
+  }
 }
