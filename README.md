@@ -13,16 +13,16 @@ https://assetbox.github.io/docs/icon-build/svg-to-react-component
 ### Usage
 
 ```tsx
-import { AlertIcon } from "@assetbox/demo-react-icon/antd-filled";
-import { AlertIcon as OutlinedAlertIcon } from "@assetbox/demo-react-icon/antd-outlined";
-import { AlertIcon as TwoToneAlertIcon } from "@assetbox/demo-react-icon/antd-twotone";
+import { Alert } from "@assetbox/demo-react-icon/antd-filled";
+import { Alert as OutlinedAlert } from "@assetbox/demo-react-icon/antd-outlined";
+import { Alert as TwoToneAlert } from "@assetbox/demo-react-icon/antd-twotone";
 
 function App() {
   return (
     <div>
-      <AlertIcon />
-      <OutlinedAlertIcon />
-      <TwoToneAlertIcon />
+      <Alert />
+      <OutlinedAlert />
+      <TwoToneAlert />
     </div>
   );
 }

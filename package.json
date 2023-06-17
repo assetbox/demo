@@ -1,6 +1,6 @@
 {
   "name": "@assetbox/demo-react-icon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publishConfig": {
     "access": "public"
   },
@@ -16,8 +16,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@assetbox/cli": "^0.2.0",
-    "@assetbox/plugin-react-icon": "^0.2.0",
+    "@assetbox/cli": "^0.2.1",
+    "@assetbox/plugin-react-icon": "^0.2.1",
     "gh-pages": "^5.0.0"
   },
   "packageManager": "pnpm@8.6.2",
@@ -26,19 +26,19 @@
   ],
   "exports": {
     "./antd-filled": {
-      "types": "./dist/types/antd-filled",
-      "import": "./dist/esm/antd-filled",
-      "require": "./dist/cjs/antd-filled"
+      "types": "./dist/types/antd-filled/index.d.ts",
+      "import": "./dist/esm/antd-filled/index.js",
+      "require": "./dist/cjs/antd-filled/index.cjs"
     },
     "./antd-outlined": {
-      "types": "./dist/types/antd-outlined",
-      "import": "./dist/esm/antd-outlined",
-      "require": "./dist/cjs/antd-outlined"
+      "types": "./dist/types/antd-outlined/index.d.ts",
+      "import": "./dist/esm/antd-outlined/index.js",
+      "require": "./dist/cjs/antd-outlined/index.cjs"
     },
     "./antd-twotone": {
-      "types": "./dist/types/antd-twotone",
-      "import": "./dist/esm/antd-twotone",
-      "require": "./dist/cjs/antd-twotone"
+      "types": "./dist/types/antd-twotone/index.d.ts",
+      "import": "./dist/esm/antd-twotone/index.js",
+      "require": "./dist/cjs/antd-twotone/index.cjs"
     }
   }
 }

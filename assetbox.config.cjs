@@ -11,6 +11,7 @@ const config = {
   },
   staticBuild: {
     base: "/demo",
+    mode: "library",
   },
   iconBuild: {
     plugins: [react()],

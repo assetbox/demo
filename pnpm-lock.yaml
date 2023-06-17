@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@assetbox/cli':
-    specifier: ^0.2.0
-    version: 0.2.0
+    specifier: ^0.2.1
+    version: 0.2.1
   '@assetbox/plugin-react-icon':
-    specifier: ^0.2.0
-    version: 0.2.0
+    specifier: ^0.2.1
+    version: 0.2.1(@types/react@18.2.12)
   gh-pages:
     specifier: ^5.0.0
     version: 5.0.0
@@ -25,8 +25,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.18
     dev: true
 
-  /@assetbox/cli@0.2.0:
-    resolution: {integrity: sha512-qj4mL0DDjQrjHpYWsYcpapLUxZi+RmQJsP8utArDJoLZlFwGw735SkKQ6rLOwNpLnN5g1szLKF0MBCtKP3u6Jw==}
+  /@assetbox/cli@0.2.1:
+    resolution: {integrity: sha512-QGXFes2nT/YvTqZMAX0jcbx6Zdkq5J9xmpHRGuzKPnleb3v6wcr9aJEkL5Luqg2pg4f78Uti2kM3hMsXNTgoIQ==}
     hasBin: true
     dependencies:
       '@trpc/server': 10.30.0
@@ -58,8 +58,10 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@assetbox/plugin-react-icon@0.2.0:
-    resolution: {integrity: sha512-kR6USV+KX1UzIFVFvAzYGnednNYQGBT8lDglZDSDiLQS15vD88py1PqSAu2wlZw1Er3ByVXreZsakm9UYw/YQw==}
+  /@assetbox/plugin-react-icon@0.2.1(@types/react@18.2.12):
+    resolution: {integrity: sha512-7nbIfOgz1W1ie2X0YWG7Nihp6YzCpojCPT7jnmgZMgaFXYjrYPQ4u71wvAcpntRUs6RahCUPtvXI/Z8rw6POHg==}
+    peerDependencies:
+      '@types/react': '*'
     dependencies:
       '@babel/core': 7.22.5
       '@babel/plugin-transform-modules-commonjs': 7.22.5(@babel/core@7.22.5)
@@ -67,7 +69,7 @@ packages:
       '@babel/plugin-transform-typescript': 7.22.5(@babel/core@7.22.5)
       '@svgr/core': 8.0.0
       '@svgr/plugin-jsx': 8.0.1(@svgr/core@8.0.0)
-      '@types/react': 18.2.11
+      '@types/react': 18.2.12
       '@types/react-dom': 18.2.4
       cli-progress: 3.12.0
       picocolors: 1.0.0
@@ -850,11 +852,11 @@ packages:
   /@types/react-dom@18.2.4:
     resolution: {integrity: sha512-G2mHoTMTL4yoydITgOGwWdWMVd8sNgyEP85xVmMKAPUBwQWm9wBPQUmvbeF4V3WBY1P7mmL4BkjQ0SqUpf1snw==}
     dependencies:
-      '@types/react': 18.2.11
+      '@types/react': 18.2.12
     dev: true
 
-  /@types/react@18.2.11:
-    resolution: {integrity: sha512-+hsJr9hmwyDecSMQAmX7drgbDpyE+EgSF6t7+5QEBAn1tQK7kl1vWZ4iRf6SjQ8lk7dyEULxUmZOIpN0W5baZA==}
+  /@types/react@18.2.12:
+    resolution: {integrity: sha512-ndmBMLCgn38v3SntMeoJaIrO6tGHYKMEBohCUmw8HoLLQdRMOIGXfeYaBTLe2lsFaSB3MOK1VXscYFnmLtTSmw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
